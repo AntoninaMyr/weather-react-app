@@ -6,7 +6,8 @@ export default function App() {
   return (
     <div className="App">
         <div className="container">
-          <Weather defaultCity="New York"/>
+          <Weather defaultCity="New York" />
+          
           <footer>
             This project was coded by{" "}
             <a href="https://heartfelt-naiad-6b0a98.netlify.app/"
@@ -28,7 +29,6 @@ export default function App() {
           >
             hosted on Netlify
           </a>
-
           </footer>
         </div> 
     </div>
